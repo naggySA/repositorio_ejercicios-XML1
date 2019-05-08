@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<justeat>
+	<restaurante>
+		<nombre>María Canela</nombre>
+		<tipoDeComida>Americana, Hamburguesas</tipoDeComida>
+		<pedidoMinimo moneda="euro" >15</pedidoMinimo>
+		<direccion>
+			<calle>María Panés</calle>
+			<numero>16</numero>
+			<poblacion>Madrid</poblacion>
+			<cp>28003</cp>
+		</direccion>
+
+
+		<menu>
+			<categoria>
+				<tipo>Menus Hamburguesa</tipo>
+				<plato>
+					<nombrePlato>Menu Hamburguesa Cheddar</nombrePlato>
+					<descripcion>Hamburguesa Cheddar (Carne, cebolla caramelizada y delicioso queso cheddar) + Patatas o ensalada + Bebida</descripcion>
+					<precio moneda="euro">11,20</precio>
+				</plato>
+				<plato>
+					<nombrePlato>Menu Hamburguesa Jalisco</nombrePlato>
+					<descripcion>Hamburguesa Jalisco (Carne, cebolla caramelizada y delicioso queso cheddar) + Patatas o ensalada + Bebida</descripcion>
+					<precio moneda="euro">11,20</precio>
+				</plato>
+				<plato>
+					<nombrePlato>Menu Hamburguesa CBacon</nombrePlato>
+					<descripcion>Hamburguesa Bacon (Carne, cebolla caramelizada y delicioso queso cheddar) + Patatas o ensalada + Bebida</descripcion>
+					<precio moneda="euro">11,20</precio>
+				</plato>
+			</categoria>
+
+			<categoria>
+				<tipo>Menus Hot Dogs</tipo>
+				<plato>
+					<nombrePlato>Menu Hot Dog Tradicion</nombrePlato>
+					<descripcion>Hot dog tradición (salchicha, ketchup, mayonesa y mostaza)+ Patatas o Ensalada + Bebida</descripcion>
+					<precio moneda="euro">9,60</precio>
+				</plato>
+
+				<plato>
+					<nombrePlato>Menu Hot Dog Imperial</nombrePlato>
+					<descripcion>Hot dog imperial (salchicha, cebolla caramelizada, queso fundido, salsas y patatas paja) + Patatas o Ensalada + Bebida</descripcion>
+					<precio moneda="euro">11.40</precio>
+				</plato>
+
+				<plato>
+					<nombrePlato>Menu Hot Dog Hawai</nombrePlato>
+					<descripcion>Hot dog Hawai (salchicha, cebolla caramelizada, salsas, piña natural a la parrilla, queso fundido y patatas paja) + Patatas o ensalada + Bebida</descripcion>
+					<precio moneda="euro">11,70</precio>
+				</plato>
+			</categoria>
+
+			<categoria>
+				<tipo>Raciones</tipo>
+				<plato>
+					<nombrePlato>Nuggets, 6 unidades</nombrePlato>
+					<descripcion>Nuggets, acompañados con salsa</descripcion>
+					<precio moneda="euro">4,50</precio>
+				</plato>
+
+				<plato>
+					<nombrePlato>Patatas Fritas</nombrePlato>
+					<descripcion></descripcion>
+					<precio moneda="euro">4</precio>
+				</plato>
+
+				<plato>
+					<nombrePlato>Patatas AliOli</nombrePlato>
+					<descripcion>patatas alioli</descripcion>
+					<precio moneda="euro">4,50</precio>
+				</plato>
+			</categoria>
+		<menu>
+
+		<opiniones>
+			<numeroValoraciones>3940 valoraciones de María Canela</numeroValoraciones>
+			<general>
+				<estrellas>4</estrellas>
+			</general>
+			<calidad>
+				<estrellas>4</estrellas>
+			</calidad>
+			<tiempoDeEntrega>
+				<estrellas>4</estrellas>
+			</tiempoDeEntrega>
+			<servicio>
+				<estrellas>4</estrellas>
+			</servicio>
+
+			<valoracion>
+				<usuario>Antonio</usuario>
+				<estrellas>3</estrellas>
+				<comentario>A parte de que tardan bastante. Las patatas vinieron sin salsa (te dan a elegir en el pedido) e incomestibles (recalentadas y frías). Las hamburguesas  muy poco hechas (quizás error nuestro de no especificar en comentarios). Aún así estaban buenas</comentario>
+			</valoracion>
+
+			<valoracion>
+				<usuario>Oscar</usuario>
+				<estrellas>3</estrellas>
+				<comentario>Comida de muy baja calidad</comentario>
+			</valoracion>
+
+			<valoracion>
+				<usuario>Fernando</usuario>
+				<estrellas>5</estrellas>
+				<comentario>Probablemente la mejor Hamburguesa a domicilio de todo Madrid, servicio y calidad Excelentes</comentario>
+			</valoracion>
+
+		</opiniones>
+
+		<info>
+			<titulo>Mas sobre María Canela</titulo>
+			<masinfo>La mejor cocina americana llega a tu casa gracias a Maria Canela en Madrid. No te puedes perder sus excelentes hamburguesas y perritos, si quieres puedes añadirles los ingredientes extras que desees. También tienes sandwiches, raciones ó ensaladas. "Carne a la parrilla 100% de vacuno". 100% hand made with love: Hacemos nuestros productos uno a uno con la dedicación y el cariño del primer día, comprobando nuestra calidad en cada una de las cosas que salen de nuestra cocina, y trabajando para que la comida rápida sea 100% natural y de excelente calidad. Por que si se hace con amor, sabe mejor.Haz tu pedido ahora con JUST EAT y ¡Qué aproveche!</masinfo>
+
+			<horarios>
+				<dia>
+					<nombreDia>Martes</nombreDia>
+					<horaAbre>12:00</horaAbre>
+					<horaCierra>23:00</horaCierra>
+				</dia>
+
+				<dia>
+					<nombreDia>Miercoles</nombreDia>
+					<horaAbre>12:45</horaAbre>
+					<horaCierra>23:00</horaCierra>
+				</dia>
+
+				<dia>
+					<nombreDia>Viernes</nombreDia>
+					<horaAbre>12:45</horaAbre>
+					<horaCierra>23:00</horaCierra>
+				</dia>
+
+				<dia>
+					<nombreDia>Sabado</nombreDia>
+					<horaAbre>12:45</horaAbre>
+					<horaCierra>23:00</horaCierra>
+				</dia>
+
+				<dia>
+					<nombreDia>Domingo</nombreDia>
+					<horaAbre>12:45</horaAbre>
+					<horaCierra>23:00</horaCierra>
+				</dia>
+			</horarios>
+
+			<zonaDeEntrega>
+
+				<codPostal>
+					<numeroCp>28003</numeroCp>
+					<pedidoMinimo>8</pedidoMinimo>
+					<costeEntrega>0</costeEntrega>
+				</codPostal>
+
+				<codPostal>
+					<numeroCp>28004</numeroCp>
+					<pedidoMinimo>8</pedidoMinimo>
+					<costeEntrega>0</costeEntrega>
+				</codPostal>
+
+				<codPostal>
+					<numeroCp>28006</numeroCp>
+					<pedidoMinimo>8</pedidoMinimo>
+					<costeEntrega>0</costeEntrega>
+				</codPostal>
+
+				<codPostal>
+					<numeroCp>28007</numeroCp>
+					<pedidoMinimo>8</pedidoMinimo>
+					<costeEntrega>0</costeEntrega>
+				</codPostal>
+
+			</zonaDeEntrega>
+		</info>
+
+	</restaurante>
+
+	<restaurante>
+		<nombre>Restaurante Diamante</nombre>
+		<tipoDeComida>China, Oriental</tipoDeComida>
+		<pedidoMinimo moneda="euro" >10</pedidoMinimo>
+		<direccion>
+			<calle>Calle Mejico</calle>
+			<numero>20</numero>
+			<poblacion>Madrid</poblacion>
+			<cp>28028</cp>
+		</direccion>
+
+
+		<menu>
+			<categoria>
+				<tipo>Sugerencia del Chef</tipo>
+				<plato>
+					<nombrePlato></nombrePlato>
+					<descripcion>Rollo de Primavera + Pato con Naranja o Piña + Arroz Tres Delicias o Fideos Fritos Tres Delicias</descripcion>
+					<precio moneda="euro">12,10</precio>
+				</plato>
+				<plato>
+					<nombrePlato></nombrePlato>
+					<descripcion>Ku-Bak con Gambas + Arroz Frito con Tres Delicias + Ensalada China + Bebida</descripcion>
+					<precio moneda="euro">12,85</precio>
+				</plato>
+				<plato>
+					<nombrePlato></nombrePlato>
+					<descripcion>Pollo con Almendras + Rollo Vietnamita + Maki Combo + California Maki Roll + Bebida</descripcion>
+					<precio moneda="euro">23,98</precio>
+				</plato>
+			</categoria>
+
+			<categoria>
+				<tipo>Menú</tipo>
+				<plato>
+					<nombrePlato>Menú A para 2 Personas</nombrePlato>
+					<descripcion>
+						- 2 Rollos de primavera
+						- Arroz frito con tres delicias
+						- Pollo con almendras
+						- Salsa agridulce
+						- 2 Bebidas
+					</descripcion>
+					<precio moneda="euro">11,00</precio>
+				</plato>
+
+				<plato>
+					<nombrePlato>Menú A1° para 2 Personas</nombrePlato>
+					<descripcion>
+						- Ensalada china
+						- 2 Rollos de primavera
+						- Arroz frito con tres delicias
+						- Pollo con almendras
+						- Cerdo agridulce 
+						</descripcion>
+					<precio moneda="euro">13.50</precio>
+				</plato>
+
+				<plato>
+					<nombrePlato>Menú A2° para 2 Personas</nombrePlato>
+					<descripcion>
+						- 2 Rollos de primavera
+						- Arroz frito con tres delicias
+						- Ternera con salsa de ostras
+						- Cerdo agridulce
+						</descripcion>
+					<precio moneda="euro">12,50</precio>
+				</plato>
+			</categoria>
+
+			<categoria>
+				<tipo>Ensaldas</tipo>
+				<plato>
+					<nombrePlato>Ensalada China</nombrePlato>
+					<descripcion></descripcion>
+					<precio moneda="euro">2,85</precio>
+				</plato>
+
+				<plato>
+					<nombrePlato>Ensalada con Carne de cangrejo</nombrePlato>
+					<descripcion></descripcion>
+					<precio moneda="euro">3,50</precio>
+				</plato>
+
+				<plato>
+					<nombrePlato>Ensalada con Brotes de Soja</nombrePlato>
+					<descripcion></descripcion>
+					<precio moneda="euro">2,98</precio>
+				</plato>
+			</categoria>
+		<menu>
+
+		<opiniones>
+			<numeroValoraciones>705 valoraciones de Restaurante Diamante</numeroValoraciones>
+			<general>
+				<estrellas>4</estrellas>
+			</general>
+			<calidad>
+				<estrellas>4</estrellas>
+			</calidad>
+			<tiempoDeEntrega>
+				<estrellas>5</estrellas>
+			</tiempoDeEntrega>
+			<servicio>
+				<estrellas>4</estrellas>
+			</servicio>
+
+			<valoracion>
+				<usuario>Veronica</usuario>
+				<estrellas>5</estrellas>
+				<comentario>Comida en general bien</comentario>
+			</valoracion>
+
+			<valoracion>
+				<usuario>Ana</usuario>
+				<estrellas>6</estrellas>
+				<comentario>La comida esta muy rica y los precios son buenos</comentario>
+			</valoracion>
+
+			<valoracion>
+				<usuario>Arturo</usuario>
+				<estrellas>5</estrellas>
+				<comentario>Buen tiempo de entrega</comentario>
+			</valoracion>
+
+		</opiniones>
+
+		<info>
+			<titulo>Más sobre Restaurante Diamante</titulo>
+			<masinfo>Telechina Express te ofrece la más exquisita variedad de cocina china que puedes encontrar. No te olvides de probar sus deliciosos California Maki Roll, el Sushi Combo o Ku-Bak con Gambas. ¡No esperes más y haz tu pedido en Just Eat!</masinfo>
+
+			<horarios>
+
+				<dia>
+					<nombreDia>Lunes</nombreDia>
+					<horaAbre>12:00</horaAbre>
+					<horaCierra>23:50</horaCierra>
+				</dia>
+				<dia>
+					<nombreDia>Martes</nombreDia>
+					<horaAbre>12:00</horaAbre>
+					<horaCierra>23:50</horaCierra>
+				</dia>
+
+				<dia>
+					<nombreDia>Miercoles</nombreDia>
+					<horaAbre>12:45</horaAbre>
+					<horaCierra>23:50</horaCierra>
+				</dia>
+
+				<dia>
+					<nombreDia>Viernes</nombreDia>
+					<horaAbre>12:45</horaAbre>
+					<horaCierra>23:50</horaCierra>
+				</dia>
+
+				<dia>
+					<nombreDia>Sabado</nombreDia>
+					<horaAbre>12:45</horaAbre>
+					<horaCierra>23:50</horaCierra>
+				</dia>
+
+				<dia>
+					<nombreDia>Domingo</nombreDia>
+					<horaAbre>12:45</horaAbre>
+					<horaCierra>23:50</horaCierra>
+				</dia>
+			</horarios>
+
+			<zonaDeEntrega>
+
+				<codPostal>
+					<numeroCp>28028</numeroCp>
+					<pedidoMinimo>8</pedidoMinimo>
+					<costeEntrega>0</costeEntrega>
+				</codPostal>
+
+				<codPostal>
+					<numeroCp>28036</numeroCp>
+					<pedidoMinimo>10</pedidoMinimo>
+					<costeEntrega>0</costeEntrega>
+				</codPostal>
+
+				<codPostal>
+					<numeroCp>28001</numeroCp>
+					<pedidoMinimo>10</pedidoMinimo>
+					<costeEntrega>0</costeEntrega>
+				</codPostal>
+
+				<codPostal>
+					<numeroCp>28002</numeroCp>
+					<pedidoMinimo>10</pedidoMinimo>
+					<costeEntrega>0</costeEntrega>
+				</codPostal>
+
+			</zonaDeEntrega>
+		</info>
+		
+	</restaurante>
+</justeat>

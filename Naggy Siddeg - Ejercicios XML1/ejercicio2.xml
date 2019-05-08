@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<twitter>
+	<tweet>
+		<userName>CentroNelson</userName>
+		<userid>@CentroNelson</userid>
+		<text>Ahí están, recibiendo el premio a mejor implementación en el concurso de videojuegos de la @informaticaupm. Enhorabuena campeones!!</text>
+		<hanstag>#FP</hanstag>
+		<hanstag>#FP</hanstag>
+		<hanstag>#FP</hanstag>
+		<hanstag>#FP</hanstag>
+		<imageTweet>foto.jpg</imageTweet>
+		<tweetTime>
+			<clock>
+				<hour>13</hour>
+				<min>12</min>
+			</clock>
+			<fecha>
+				<dia></dia>
+				<mes></mes>
+				<anio></anio>
+			</fecha>
+		</tweetTime>
+		<retweets rtNnumber="5">
+			<rtUser>@naggylifter</rtUser>
+			<rtUser>@naggylifter</rtUser>
+			<rtUser>@naggylifter</rtUser>
+			<rtUser>@naggylifter</rtUser>
+			<rtUser>@naggylifter</rtUser>
+		</retweets>
+		<meGusta rtnumber="1">
+			<mgUser>@naggylifter</mgUser>
+		</meGusta>
+	</tweet>
+
+	<tweet>
+		<userName>CentroNelson</userName>
+		<userid>@CentroNelson</userid>
+		<text>El team amarillo es el mejor!</text>
+		<hanstag>#FP</hanstag>
+		<hanstag>#FP</hanstag>
+		<hanstag>#FP</hanstag>
+		<hanstag>#FP</hanstag>
+		<imageTweet>foto.jpg</imageTweet>
+		<tweetTime>
+			<clock>
+				<hour>14</hour>
+				<min>22</min>
+			</clock>
+			<fecha>
+				<dia>01</dia>
+				<mes>mar</mes>
+				<anio>2016</anio>
+			</fecha>
+		</tweetTime>
+		<retweets rtNnumber="5">
+			<rtUser>@naggylifter</rtUser>
+			<rtUser>@naggylifter</rtUser>
+			<rtUser>@naggylifter</rtUser>
+			<rtUser>@naggylifter</rtUser>
+			<rtUser>@naggylifter</rtUser>
+		</retweets>
+		<meGusta rtnumber="1">
+			<mgUser>@naggylifter</mgUser>
+		</meGusta>
+	</tweet>
+	
+</twitter>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE discosMusica [
+<!ELEMENT discosMusica (album)+>
+<!ELEMENT album (titulo, artista, fechaPublicacion, genero, estilo, selloDiscografico, duracionAlbum, listadoTemas)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT artista (#PCDATA)>
+<!ELEMENT fechaPublicacion (#PCDATA)>
+<!ELEMENT genero (#PCDATA)>
+<!ELEMENT estilo (#PCDATA)>
+<!ELEMENT selloDiscografico (#PCDATA)>
+<!ELEMENT duracionAlbum (#PCDATA)>
+<!ATTLIST duracionAlbum unidad CDATA "(minutos)">
+<!ELEMENT listadoTemas (tema)+>
+<!ELEMENT tema (nombre, duracion)>
+<!ATTLIST tema numero CDATA "1">
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT duracion (#PCDATA)>
+]>
+
+<discosMusica>
+	<album>
+		<titulo>Lighthing</titulo>
+		<artista>Matt y Kim </artista>
+		<fechaPublicacion>2012</fechaPublicacion>
+		<genero>electronica</genero>
+		<estilo>synth-pop</estilo>
+		<selloDiscografico>Fader Label</selloDiscografico>
+		<duracionAlbum unidad="minutos">36</duracionAlbum>
+		<listadoTemas>
+			<tema numero="1">
+				<nombre>Let's Go</nombre>
+				<duracion>3:30</duracion>
+			</tema>
+			<tema numero="2">
+				<nombre>Now</nombre>
+				<duracion>4:05</duracion>
+			</tema>
+			<tema numero="3">
+				<nombre>It's Alright</nombre>
+				<duracion>3:23</duracion>
+			</tema>
+			<tema numero="4">
+				<nombre>Not That Bad</nombre>
+				<duracion>3:17</duracion>
+			</tema>
+		</listadoTemas>
+	</album>
+
+</discosMusica>

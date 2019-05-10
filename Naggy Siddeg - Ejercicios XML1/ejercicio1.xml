@@ -74,7 +74,7 @@
 					<precio moneda="euro">4,50</precio>
 				</plato>
 			</categoria>
-		<menu>
+		</menu>
 
 		<opiniones>
 			<numeroValoraciones>3940 valoraciones de María Canela</numeroValoraciones>
@@ -268,7 +268,7 @@
 					<precio moneda="euro">2,98</precio>
 				</plato>
 			</categoria>
-		<menu>
+		</menu>
 
 		<opiniones>
 			<numeroValoraciones>705 valoraciones de Restaurante Diamante</numeroValoraciones>

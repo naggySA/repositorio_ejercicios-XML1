@@ -1,0 +1,15 @@
+<!ELEMENT discosMusica (album)+>
+<!ELEMENT album (titulo, artista, fechaPublicacion, genero, estilo, selloDiscografico, duracionAlbum, listadoTemas)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT artista (#PCDATA)>
+<!ELEMENT fechaPublicacion (#PCDATA)>
+<!ELEMENT genero (#PCDATA)>
+<!ELEMENT estilo (#PCDATA)>
+<!ELEMENT selloDiscografico (#PCDATA)>
+<!ELEMENT duracionAlbum (#PCDATA)>
+<!ATTLIST duracionAlbum unidad CDATA "(minutos)">
+<!ELEMENT listadoTemas (tema)+>
+<!ELEMENT tema (nombre, duracion)>
+<!ATTLIST tema numero CDATA "1">
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT duracion (#PCDATA)>

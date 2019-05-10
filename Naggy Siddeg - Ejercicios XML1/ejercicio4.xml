@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 
-<pokemon>
+<pokemons>
+  <pokemon>
      <nombrePokemon>pidgeot</nombrePokemon>
       <numero>018</numero>
       <apodo>Bird Jesus</apodo>
@@ -10,11 +11,12 @@
       <debilidades>Hielo</debilidades>
       <debilidades>Roca</debilidades>
       <salud unidad = "ps">367</salud>
-      <ataque>
-       <nombreAtaque>Vuelo</nombreAtaque>
-       <tipoAtaque>Volador</tipoAtaque>
-       <pp>15/15</pp>
-      </ataque>
+      <ataques>
+        <ataque>
+         <nombreAtaque>Vuelo</nombreAtaque>
+         <tipoAtaque>Volador</tipoAtaque>
+         <pp>15/15</pp>
+        </ataque>
       <ataque>
         <nombreAtaque>Ataque Ala</nombreAtaque>
         <tipoAtaque>Volador</tipoAtaque>
@@ -30,4 +32,6 @@
         <tipoAtaque>Písiquico</tipoAtaque>
         <pp>10/10</pp>
       </ataque>
-</pokemon>
+    </ataques>
+  </pokemon>
+<pokemons>

@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<informatica>
+	<referente>
+		<nombre>Ada</nombre>
+		<apellido>Lovelace</apellido>
+		<especialidad>Programación</especialidad>
+		<nacimiento>1815</nacimiento>
+		<muerte>1852</muerte>
+	</referente>
+	<referente>
+		<nombre>Hedy</nombre>
+		<apellido>Lamarr</apellido>
+		<especialidad>Telecomunicaciones</especialidad>
+		<nacimiento>1914</nacimiento>
+		<muerte>2000</muerte>
+	</referente>
+	<referente>
+		<nombre>Jude</nombre>
+		<apellido>Milhon</apellido>
+		<especialidad>Programación</especialidad>
+		<nacimiento>1939</nacimiento>
+		<muerte>2003</muerte>
+	</referente>
+	<referente>
+		<nombre>Evelyn</nombre>
+		<apellido>Berezin</apellido>
+		<especialidad>Programación</especialidad>
+		<nacimiento>1925</nacimiento>
+    <muerte></muerte>
+	</referente>
+	<referente>
+		<nombre>Grace</nombre>
+		<apellido>Murray Hopper</apellido>
+		<especialidad>Programación</especialidad>
+		<nacimiento>1906</nacimiento>
+		<muerte>1992</muerte>
+	</referente>
+	<referente>
+		<nombre>Shafrira</nombre>
+		<apellido>Goldwasser</apellido>
+		<especialidad>Criptografía</especialidad>
+		<nacimiento>1958</nacimiento>
+	</referente>
+	<referente>
+		<nombre>Ángela</nombre>
+		<apellido>Ruiz Robles</apellido>
+		<especialidad>Automatización</especialidad>
+		<nacimiento>1895</nacimiento>
+		<muerte>1975</muerte>
+	</referente>
+</informatica>

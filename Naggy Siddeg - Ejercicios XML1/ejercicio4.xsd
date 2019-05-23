@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+	<xs:element name="pokemons">
+		<xs:complexType>		
+			<xs:sequence>
+				<xs:element name="pokemon" type="tipPokemon">
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:complexType name="tipoPokemon">
+		<xs:sequence>
+			<xs:element name="nombre" type="xs:string"/>
+			<xs:element name="numero" type="xs:integer"/>
+			<xs:element name="apodo" type="xs:string"/>
+			<xs:element name="tipo" type="xs:string" maxOccurs="unbounded"/>
+			<xs:element name="debilidad" type="tipo" maxOccurs="unbounded">
+			<xs:element name="salud" type="tipoSalud">
+			<xs:element  name="ataques" type="tipoAtaques">
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="tipoAtaques">
+		<xs:sequence>
+			<xs:element name="ataque" type="tipoAtaque" maxOccurs="unbounded">
+		</xs:sequence>	
+	</xs:complexType>
+
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element name="nombreAtaque" type="xs:string"/>
+			<xs:element name="tipoAtaque" type="xs:integer"/>
+			<xs:element name="pp" type="xs:string"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>
